@@ -1,0 +1,38 @@
+{
+    "files": [],
+    "references": [
+        {
+            "path": "./tsconfig.node.json"
+        },
+        {
+            "path": "./tsconfig.app.json"
+        }
+    ],
+    "compilerOptions": {
+        "baseUrl": ".",
+        "target": "esnext",
+        "useDefineForClassFields": true,
+        "allowSyntheticDefaultImports": true,
+        "composite": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "strict": true,
+        "jsx": "preserve",
+        "sourceMap": false,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "lib": [
+            "esnext",
+            "dom"
+        ],
+        "types": [
+            "node",
+            "vuetify"
+        ],
+        "paths": {
+            "@/*": [
+                "src/*"
+            ]
+        }
+    },
+}
