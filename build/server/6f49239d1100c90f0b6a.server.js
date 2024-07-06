@@ -1,2 +1,0 @@
-/*! For license information please see 6f49239d1100c90f0b6a.server.js.LICENSE.txt */
-(()=>{var __webpack_modules__={"./src/server/main.ts":()=>{eval(";\r\nonNet('police-helicopter:spotlight', (data) => {\r\n    const entityId = NetworkGetEntityFromNetworkId(Number(data.helicopterNetworkId));\r\n    if (DoesEntityExist(entityId)) {\r\n        emitNet('police-helicopter:spotlight', -1, data);\r\n    }\r\n});\r\n\n\n//# sourceURL=webpack://fivem-police-helicopter-camera/./src/server/main.ts?")}},__webpack_exports__={};__webpack_modules__["./src/server/main.ts"]()})();

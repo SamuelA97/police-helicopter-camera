@@ -1,0 +1,1 @@
+onNet("police-helicopter:spotlight",(t=>{const e=NetworkGetEntityFromNetworkId(Number(t.helicopterNetworkId));DoesEntityExist(e)&&emitNet("police-helicopter:spotlight",-1,t)}));
