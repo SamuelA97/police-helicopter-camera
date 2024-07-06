@@ -1,7 +1,7 @@
 fx_version "bodacious"
 game "gta5"
 
-name "Binoculars"
+name "Police Helicopter Camera"
 description ""
 author "Sam"
 
